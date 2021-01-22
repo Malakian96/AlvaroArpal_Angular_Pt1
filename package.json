@@ -8,8 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "server": "ng serve -o",
-    "node modules": "npm install"
+    "server": "ng serve -o"
   },
   "private": true,
   "dependencies": {
