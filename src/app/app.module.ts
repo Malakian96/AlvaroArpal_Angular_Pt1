@@ -10,6 +10,8 @@ import { DadesProductesService } from './service/dades-productes.service';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ProductListFilterPipe } from './product-list/product-list-filter.pipe';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,13 +20,16 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ProductListComponent,
     WelcomeComponent,
     ProductListFilterPipe,
+    
  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+   
     
   ],
   providers: [DadesProductesService],

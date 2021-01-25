@@ -1,4 +1,10 @@
 div{
-   
+  
     width: 80vw;
+}
+img{
+    max-width: 150px;
+}
+.table{
+    max-height: 80px;
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 import { IProducte } from '../interfaces/iproducte';
 import { DadesProductesService } from '../service/dades-productes.service';
 
